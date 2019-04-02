@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width : 992px) {
+/*	.centered-div{
+	  width:90%;
+	}*/
+
+}
+@media (max-width : 768px) {
+.body-bg {
+	min-height: 768px;
+}
+/*.welcome-footer{
+		padding:0;
+	}*/
+.margin-right-left-zero{
+	margin-left:0 !important;
+	margin-right:0 !important;
+}
+.margin-top-bottom-five{
+	margin: 5px 0;
+}	
+.welcome-footer p, .welcome-footer a {
+	text-align: center;
+}
+.centered-div {
+	width: 90%;
+}
+.body-bg {
+	margin-bottom: 90px !important;
+}
+.work-mode {
+	display:block !important;
+}
+.logout-btn-div{
+	display:block !important;
+}
+.file-management-header h3, .file-management-header p, .reset-div, .file-management-header a {
+	text-align: center;
+}
+.file-management-header h3 {
+  margin: 0px 0px 10px !important;
+}
+.home-main-tabs h4{
+	text-align:center !important;
+}
+.home-logo-div {
+	text-align: center !important;
+}
+.home-header-logo {
+	float: none !important;
+	display: inline-block;
+}
+.home-work-mode {
+	text-align: center !important;
+}
+.logout-btn-div {
+	text-align: center;
+}
+.home-main-tabs{
+	text-align:center;
+}
+.home-work-mode{
+	padding:0 !important;
+}
+	#calendar {
+		float:none !important;
+		margin:20px auto !important;
+	}
+	.button-row button, .margin-five-top-bottom{
+		margin:5px 0px;
+	}
+	.panel-logout-btn{
+		float:none !important;
+    display: inherit;
+    margin: 5px auto !important;
+    text-align: center;
+	}
+	.home-link{
+		text-align:center;
+	}
+	.sub-address-tab-panel .tab-content, .sub-phone-tab-panel .tab-content {
+     border:none !important;
+}
+.close-program-div{
+	text-align:center;
+}
+.logout-div{
+	text-align:center !important;
+}
+
+}
+@media (max-width : 340px) {
+.body-bg {
+	margin-bottom: 110px !important;
+}
+.forgot-password-div{
+	min-width:200px !important;
+}
+}

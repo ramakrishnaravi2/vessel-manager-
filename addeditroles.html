@@ -1,0 +1,279 @@
+<!doctype html>
+<html class="footer-sticky-properties">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ADD/EDIT ROLES | FLEET MANAGEMENT HOME</title>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link href="css/bootstrap-datepicker.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/font-awesome.css"/>
+<link rel="stylesheet" href="css/responsivestyles.css"/>
+<!--<link rel="stylesheet" href="css/style.css"/>-->
+<link rel="stylesheet" href="css/styles.css"/>
+<!--<script type="text/javascript" src="js/modernizr.min.js"></script>
+-->
+</head>
+
+<body class="body-bg">
+<section class="login-page-header">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="home-logo-div"> <img class="img-responsive home-header-logo header-logo" src="images/header-logo.png"/></div>
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-12">
+      <div class="row">
+       <!-- <div class="col-md-10 col-sm-8 col-xs-8">
+        </div>-->
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="logout-btn-div text-right block-property close-program-div"> 
+            <div class="text-right work-mode home-work-mode"><span>Work Mode: Online</span></div>
+            <span class="logout-btn global-administration-top-btn">GLOBAL ADMINISTRATION</span> <span class="logout-btn global-administration-top-btn">HELP</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!---------------------------------------dashboard panel starts------------------------------------------------->
+<section class="file-management-header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <p>Welcome <span>Admin</span></p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h3 class="text-center">ADD/EDIT ROLES</h3>
+      </div>
+      <!--<div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="reset-div text-right"> <a  class="reset-btn" href="#"><i class="fa fa-cog" aria-hidden="true"></i> Reset Credentials</a> </div>
+      </div>--> 
+    </div>
+  </div>
+</section>
+<section class="set-password-section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="home-link"><a href="#"><i class="fa fa-home"></i> Home</a> <i class="fa fa-angle-double-right breadcrumb-icon" aria-hidden="true"></i> <a href="#"><i class="fa fa-globe" aria-hidden="true"></i> Global Administration</a> <i class="fa fa-angle-double-right breadcrumb-icon" aria-hidden="true"></i> <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i> Add/Edit Roles</a> </div>
+      </div>
+    </div>
+    <!-------------------------------------Contacts-panel starts------------------------------------>
+    <div class="row">
+      <div class="col-md-8  col-md-offset-2  col-sm-8  col-sm-offset-2  col-xs-12">
+        <div class="panel screen-design-panel panel-default">
+          <div class="panel-heading text-center">ROLE CREATION</div>
+          <div class="panel-body screen-design-body">
+            <form class="floating-form name-form-section">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+               <div class=" form-group">
+                <select class="form-control" id="Designation">
+                  <option>--Select Vessel--</option>
+                  <option>Belle Aimee</option>
+                  <option>DEVTEST</option>
+                  <option>Eos</option>
+                  <option>Equanimity</option>
+                  <option>Excellence V</option>
+                  <option>Faith</option>
+                  <option>Freedom</option>
+                  <option>Gladiator</option>
+                  <option>Gravitas</option>
+                </select>
+                <span class="highlight"></span> <span class="bar"></span>
+                <label for="Designation">Designation :<span class="red">*</span></label>
+              </div>
+           </div>
+           <div class="col-md-6 col-sm-6 col-xs-12">                                              
+              <div class=" form-group">
+                <input type="text" class="form-control" required id="rolename">
+                <span class="highlight"></span> <span class="bar"></span>
+                <label for="footerurl">Role Name:<span class="red">*</span></label>
+              </div>
+             </div>
+           </div>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8  col-md-offset-2  col-sm-8  col-sm-offset-2  col-xs-12">
+    <div class="panel screen-design-panel panel-default">
+          <div class="panel-heading text-center">ADMIN CONSOLE SCREENS</div>
+          <div class="panel-body screen-design-body">
+               <div class="admin-console-section">
+                  <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                          <div class="edit-add-admin-table table-responsive">  
+                                <form class="admin-console-form">        
+                              <table class="table table-striped">
+                                <thead>
+                                  <tr>
+                                    <th class="main-thead-left-align">MODULES & SUB MODULES</th>
+                                    <th>Full Access   
+                                       <div class="radio text-center">
+                                        <label><input type="radio" name="cea"></label>
+                                      </div>
+                                    </th>
+                                    <th>Read Only
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="cea"></label>
+                                      </div>
+                                    </th>
+                                    <th>No Access
+                                       <div class="radio text-center">
+                                        <label><input type="radio" name="cea" checked></label>
+                                      </div>
+                                    </th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Corporate Employee Administration</td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="employeeadministrationfullaccess"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="employeeadministrationreadonly"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                       <div class="radio text-center">
+                                        <label><input type="radio" name="employeeadministrationnoaccess" checked></label>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Staff Password Assignment</td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="staffpasswordfullaccess"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="staffpasswordreadonly"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                       <div class="radio text-center">
+                                        <label><input type="radio" name="staffpasswordnoaccess" checked></label>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>Screen Design Development</td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="screendevelopmentfullaccess"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="screendevelopmentreadonly"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                       <div class="radio text-center">
+                                        <label><input type="radio" name="screendevelopmentnoaccess" checked></label>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td>New Vessel Setup</td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="newvesselfullaccess"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="newvesselreadonly"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                       <div class="radio text-center">
+                                        <label><input type="radio" name="newvesselnoaccess" checked></label>
+                                      </div>
+                                    </td>                                    
+                                  </tr>
+                                  <tr>
+                                    <td>Global Admin Screens Administration</td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="globalfullaccess"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="radio text-center">
+                                        <label><input type="radio" name="globalreadonly"></label>
+                                      </div>
+                                    </td>
+                                    <td>
+                                       <div class="radio text-center">
+                                        <label><input type="radio" name="globalnoacess" checked></label>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </form>
+                              </div>
+                    </div>
+                    
+                  </div>
+               </div>
+          </div>
+        </div>
+       </div>
+    </div>
+    <div class="container-fluid">
+      <div class="text-center">
+        <button class="btn btn-default">SAVE</button>
+        <button class="btn btn-default">BACK</button>
+        <button class="btn btn-default global-outer-btn">LOG OUT</button>
+      </div>
+    </div>
+    <!-------------------------------------Contacts-panel starts------------------------------------> 
+    
+  </div>
+</section>
+<!---------------------------------------dashboard panel ends------------------------------------------------->
+
+<section class="welcome-footer">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-left">
+        <p>2018 © Wright Publishing - All Rights Reserved</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-center"> <a href="#">Login.iVessel-Manager.com</a> </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-right">
+        <p>iVessel-Manager ™</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----------------------------------------scripts starts here----------------------------------> 
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
+<!-- <script type="text/javascript" src="js/moment.js"></script>--> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-datepicker.js"></script> 
+<script type="text/javascript">
+ $('#calendar').datepicker({
+    todayHighlight: true,
+	format: "yyyy-mm-dd"
+});
+</script> 
+<!----------------------------------------scripts ends here---------------------------------->
+</body>
+</html>

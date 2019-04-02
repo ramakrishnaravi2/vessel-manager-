@@ -1,0 +1,646 @@
+<!doctype html>
+<html class="footer-sticky-properties">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GlobalAlertDesignation | FLEET MANAGEMENT HOME</title>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link href="css/bootstrap-datepicker.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/font-awesome.css"/>
+<link rel="stylesheet" href="css/responsivestyles.css"/>
+<!--<link rel="stylesheet" href="css/style.css"/>-->
+<link rel="stylesheet" href="css/styles.css"/>
+<!--<script type="text/javascript" src="js/modernizr.min.js"></script>
+-->
+</head>
+
+<body class="body-bg">
+<section class="login-page-header">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="home-logo-div"> <img class="img-responsive home-header-logo header-logo" src="images/header-logo.png"/></div>
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-12">
+      <div class="row"> 
+        <!-- <div class="col-md-10 col-sm-8 col-xs-8">
+        </div>-->
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="logout-btn-div text-right block-property close-program-div">
+            <div class="text-right work-mode home-work-mode"><span>Work Mode: Offline</span></div>
+            <span class="logout-btn global-administration-top-btn">GLOBAL ADMINISTRATION</span> <span class="logout-btn global-administration-top-btn">HELP</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!---------------------------------------dashboard panel starts------------------------------------------------->
+<section class="file-management-header">
+ 
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <p>Welcome <span>Admin,</span><span>Manager</span></p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h3 class="text-center">ALERT DESIGNATION</h3>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12"> </div>
+      <!--<div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="reset-div text-right"> <a  class="reset-btn" href="#"><i class="fa fa-cog" aria-hidden="true"></i> Reset Credentials</a> </div>
+      </div>--> 
+    </div>
+  
+</section>
+<section class="set-password-section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="home-link"><a href="#"> Home</a> <i class="fa fa-angle-double-right breadcrumb-icon" aria-hidden="true"></i> <a href="#"> Global Administration </a> </div>
+      </div>
+    </div>
+    
+    <!-------------------------------------finance-panel starts------------------------------------>
+    
+    <section class="empoyee-panel-section">
+    
+      <div class="row">
+        <div class=" col-lg-4 col-md-5 col-sm-12 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading text-center">ALERT DESIGNATION</div>
+            <div class="panel-body">
+              <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="alerts" class="col-md-4 col-sm-4 col-xs-12 control-label">Alerts :</label>
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <select id="alerts" class="form-control input-sm">
+                      <option selected="selected">--Select--</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                    </select>
+                    </div>
+                  </div>
+                
+                
+                
+                <div class="form-group">
+                  <label for="vessel" class="col-md-4 col-sm-4 control-label">Vessel :</label>
+                  <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="white-space">
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="desingnation" class="col-md-4 col-sm-4 col-xs-12 control-label">Designation :</label>
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <select id="desingnation" class="form-control input-sm">
+                            <option selected="selected" value="0">--Select --</option>
+                            <option value="Captain">Captain</option>
+                            <option value="Employee">Employee</option>
+                            <option value="HOD">HOD</option>
+                            <option value="Vessel Manager">Vessel Manager</option>
+                            <option value="Officer">Officer</option>
+                            <option value="Owner's Office">Owner's Office</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="role" class="col-md-4 col-sm-4 col-xs-12 control-label">Role :</label>
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <select id="role" class="form-control input-sm">
+                            <option selected="selected" value="0">--Select --</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="cc" class="col-md-4 col-sm-4 col-xs-12 control-label">CC :</label>
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <textarea id="cc" rows="3" class="form-control input-sm">
+                    </textarea>
+                    </div>
+                  </div>
+                  <div class="button-row text-center  padding-top-bottom">
+                    <button class="btn ">ADD</button>
+                    <button class="btn ">BACK</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading text-center">DESIGNATED ALERT DETAILS</div>
+            <div class="panel-body">
+                  <strong> Filter By:</strong>
+                     <div class="row">
+                       <div class="col-md-2 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="alerts" class=" control-label">Alerts :</label>
+                            <div class="">
+                            <select id="alerts" class="form-control input-sm">
+                              <option selected="selected">--Select--</option>
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                            </select>
+                            </div>
+                          </div>
+                         </div>
+                         <div class="col-md-2 col-sm-6 col-xs-12"> 
+                          <div class="form-group">
+                            <label for="vessel" class=" control-label">Vessel :</label>
+                            <div class="">
+                            <select id="vessel" class="form-control input-sm">
+                            </select>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="col-md-2 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="module" class=" control-label">Module:</label>
+                            <div class="">
+                            <select id="module" class="form-control input-sm">
+                                <option selected="selected" value="--Select--">--Select--</option>
+                                <option value="de16fb27-04b7-4c03-a9be-cfd86bc2317d">Financial Management</option>
+                                <option value="dd647909-117c-4c2d-8abe-379a473ce690">ISM/ISPS Operations</option>
+                                <option value="0d234db6-2cc6-4ccd-8833-0cadd7060439">Crew HR</option>
+                                <option value="96b7b025-699b-4d48-884d-09ec89d08bf7">Technical Management</option>
+                                <option value="a79d0c7c-afe2-4dc3-b65d-2a98ece5ee6e">Inventory Management</option>
+                                <option value="16817558-9832-4b6e-abc8-7d3c2d52f21c">Operations Management</option>
+                                <option value="76ea0844-1743-413d-bfd4-b38ae0cddb9c">Global Administration</option> 
+                               </select>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="col-md-2 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="desingnation" class="control-label">Designation :</label>
+                            <div class="">
+                            <select id="desingnation" class="form-control input-sm">
+                                    <option selected="selected" value="0">--Select --</option>
+                                    <option value="Captain">Captain</option>
+                                    <option value="Employee">Employee</option>
+                                    <option value="HOD">HOD</option>
+                                    <option value="Vessel Manager">Vessel Manager</option>
+                                    <option value="Officer">Officer</option>
+                                    <option value="Owner's Office">Owner's Office</option>
+                            </select>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="col-md-2 col-sm-6 col-xs-12">
+                         <div class="form-group">
+                            <label for="routine" class="control-label">Routine:</label>
+                            <div class="">
+                            <select id="routine" class="form-control input-sm">
+                            </select>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="col-md-2 col-sm-6 col-xs-12">
+                          <div class="form-group">
+                            <label for="role" class="control-label">Role:</label>
+                            <div class="">
+                            <select id="role" class="form-control input-sm">
+                            </select>
+                            </div>
+                          </div>
+                       </div>
+                       <div class="col-md-12 col-sm-12 col-xs-12">
+                          <div class="btn-row text-center margin-top-bottom-five-fullscreen">
+                           <button class="btn input-sm">ADD PREDEFINED FIELDS</button>
+                         </div>
+                       </div>
+                     </div>
+
+              <div class="table-responsive">
+          <table class="table  table-striped">
+            <thead>
+              <tr>
+                <th>EDIT</th>
+                <th>IS E.C</th>
+                <th>TITLE</th>
+                <th>FIRST NAME</th>
+                <th>MIDDLE NAME</th>
+                <th>LAST NAME</th>
+                <th>SUFFIX</th>
+                <th>YACHT NAME</th>
+                <th>COMPANY</th>
+                <th>TYPE OF BUSINESS</th>
+                <th>DEPARTMENT</th>
+                <th>JOB TITLE</th>
+                <th>BUSINESS STREET</th>
+                <th>BUSINESS STREET2</th>
+                <th>BUSINESS STREET3</th>
+                <th>BUSINESS CITY</th>
+                <th>BUSINESS STATE</th>
+                <th>BUSINESS POSTAL CODE</th>
+                <th>BUSINESS COUNTRY/REGION</th>
+                <th>ASSISTANTS's NAME</th>
+                <th>ASSISTANTS's PHONE</th>
+                <th>ASSISTANTS's MOBILE PHONE</th>
+                <th>BUSINESS FAX</th>
+                <th>BUSINESS PHONE</th>
+                <th>BUSINESS PHONE2</th>
+                <th>COMPANY MAIN PHONE</th>
+                <th>ACCOUNT</th>
+                <th>BILLING INFORMATION</th>
+                <th>BUSINESS ADDRESS PO BOX</th>
+                <th>WEB PAGE</th>
+                <th>HOME PHONE</th>
+                <th>MOBILE PHONE</th>
+                <th>HOME STREET</th>
+                <th>HOME STREET2</th>
+                <th>HOME STREET3</th>
+                <th>HOME CITY</th>
+                <th>HOME STATE</th>
+                <th>HOME POSTAL CODE</th>
+                <th>HOME COUNTRY/REGION</th>
+                <th>ANNIVERSARY</th>
+                <th>BIRTHDAY</th>
+                <th>SPOUSE</th>
+                <th>SPOUSE BIRTHDAY</th>
+                <th>CHILDREN</th>
+                <th>HOBBY</th>
+                <th>DIRECTORY SERVER</th>
+                <th>EMAIL ADDRESS</th>
+                <th>EMAIL TYPE</th>
+                <th>EMAIL DISPLAYNAME</th>
+                <th>EMAIL2 ADDRESS</th>
+                <th>EMAIL2 TYPE</th>
+                <th>EMAIL2 DISPLAYNAME</th>
+                <th>EMAIL3</th>
+                <th>EMAIL3 TYPE</th>
+                <th>EMAIL3 DISPLAYNAME</th>
+                <th>GENDER</th>
+                <th>GOVERNMENT ID NUMBER</th>
+                <th>INITIALS</th>
+                <th>KEYWORDS</th>
+                <th>LANGUAGE</th>
+                <th>LOCATION</th>
+                <th>NOTES</th>
+                <th>ORGANIZATIONAL ID NUMBER</th>
+                <th>PRIORITY</th>
+                <th>PRIVATE</th>
+                <th>PROFESSION</th>
+                <th>REFERRED BY</th>
+                <th>SENSITIVITY</th>
+                <th>DELETE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button class="btn table-edit-btn"><i class="fa fa-pencil" aria-hidden="true"></i> EDIT</button></td>
+                <td><div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="">
+                    </label>
+                  </div></td>
+                <td>CAPTAIN.</td>
+                <td>David</td>
+                <td></td>
+                <td>Passmore</td>
+                <td></td>
+                <td>Freedom</td>
+                <td>Freedom</td>
+                <td></td>
+                <td></td>
+                <td>Captain</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="image" src="images/trash-icon.png" alt="delete"></td>
+              </tr>
+              <tr>
+                <td><button class="btn table-edit-btn"><i class="fa fa-pencil" aria-hidden="true"></i> EDIT</button></td>
+                <td><div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="">
+                    </label>
+                  </div></td>
+                <td>CAPTAIN.</td>
+                <td>David</td>
+                <td></td>
+                <td>Passmore</td>
+                <td></td>
+                <td>Freedom</td>
+                <td>Freedom</td>
+                <td></td>
+                <td></td>
+                <td>Captain</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="image" src="images/trash-icon.png" alt="delete"></td>
+              </tr>
+              <tr>
+                <td><button class="btn table-edit-btn"><i class="fa fa-pencil" aria-hidden="true"></i> EDIT</button></td>
+                <td><div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="">
+                    </label>
+                  </div></td>
+                <td>CAPTAIN.</td>
+                <td>David</td>
+                <td></td>
+                <td>Passmore</td>
+                <td></td>
+                <td>Freedom</td>
+                <td>Freedom</td>
+                <td></td>
+                <td></td>
+                <td>Captain</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="image" src="images/trash-icon.png" alt="delete"></td>
+              </tr>
+              <tr>
+                <td><button class="btn table-edit-btn"><i class="fa fa-pencil" aria-hidden="true"></i> EDIT</button></td>
+                <td><div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="">
+                    </label>
+                  </div></td>
+                <td>CAPTAIN.</td>
+                <td>David</td>
+                <td></td>
+                <td>Passmore</td>
+                <td></td>
+                <td>Freedom</td>
+                <td>Freedom</td>
+                <td></td>
+                <td></td>
+                <td>Captain</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>954-672-6689</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><input type="image" src="images/trash-icon.png" alt="delete"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+</section>
+</div>
+<!-------------------------------------finance-panel ends------------------------------------>
+<div class="container-fluid">
+<div class="button-row text-center">
+        <button class="btn btn-default">SAVE & CLOSE</button>
+        <button class="btn btn-default">RETURN TO LIST</button>
+      </div>
+<div class="button-row logout-div">
+  <button class="btn btn-default global-outer-btn">LOG OUT</button>
+</div>
+</div>
+</div>
+</section>
+<!---------------------------------------dashboard panel ends------------------------------------------------->
+
+<section class="welcome-footer">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-left">
+        <p>2018 © Wright Publishing - All Rights Reserved</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-center"> <a href="#">Login.iVessel-Manager.com</a> </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-right">
+        <p>iVessel-Manager ™</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----------------------------------------scripts starts here----------------------------------> 
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
+<!-- <script type="text/javascript" src="js/moment.js"></script>--> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-datepicker.js"></script> 
+
+<!----------------------------------------scripts ends here---------------------------------->
+</body>
+</html>

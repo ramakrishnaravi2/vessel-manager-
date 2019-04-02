@@ -1,0 +1,223 @@
+<!doctype html>
+<html class="footer-sticky-properties">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>global add edit screen | FLEET MANAGEMENT HOME</title>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link href="css/bootstrap-datepicker.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/font-awesome.css"/>
+<link rel="stylesheet" href="css/responsivestyles.css"/>
+<!--<link rel="stylesheet" href="css/style.css"/>-->
+<link rel="stylesheet" href="css/styles.css"/>
+<!--<script type="text/javascript" src="js/modernizr.min.js"></script>
+-->
+</head>
+
+<body class="body-bg">
+<section class="login-page-header">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="home-logo-div"> <img class="img-responsive home-header-logo header-logo" src="images/header-logo.png"/></div>
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-12">
+      <div class="row"> 
+        <!-- <div class="col-md-10 col-sm-8 col-xs-8">
+        </div>-->
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="logout-btn-div text-right block-property close-program-div">
+            <div class="text-right work-mode home-work-mode"><span>Work Mode: Offline</span></div>
+            <span class="logout-btn global-administration-top-btn">GLOBAL ADMINISTRATION</span> <span class="logout-btn global-administration-top-btn">HELP</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!---------------------------------------dashboard panel starts------------------------------------------------->
+<section class="file-management-header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <p>Welcome <span>Admin,</span><span>Manager</span></p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h3 class="text-center">ALERT ADD/EDIT SCREEN</h3>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12"> </div>
+      <!--<div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="reset-div text-right"> <a  class="reset-btn" href="#"><i class="fa fa-cog" aria-hidden="true"></i> Reset Credentials</a> </div>
+      </div>--> 
+    </div>
+  </div>
+</section>
+<section class="set-password-section">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="home-link"><a href="#"> Home</a> <i class="fa fa-angle-double-right breadcrumb-icon" aria-hidden="true"></i> <a href="#"> Global Administration </a> </div>
+      </div>
+    </div>
+    
+    <!-------------------------------------finance-panel starts------------------------------------>
+    
+    <section class="empoyee-panel-section">
+    
+      <div class="row">
+        <div class=" col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading text-center">ALERT INFORMATION</div>
+            <div class="panel-body">
+              <div class="form-horizontal">
+                <div class="form-group">
+                  <label for="alertnumber" class="col-md-4 col-sm-4 control-label">Alert Number :</label>
+                  <div class="col-md-8 col-sm-8 col-xs-12">
+                    <input type="text" class="form-control input-sm" id="alertnumber">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="datee" class="col-md-4 col-sm-4 control-label">Date :</label>
+                  <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="input-group">
+                      <input type="text" class="form-control input-sm" id="datee">
+                      <span class="input-group-addon"><i class="fa fa-calendar"></i></span> </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="module" class="col-md-4 col-sm-4 control-label">Module :</label>
+                  <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="overflow-area">
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          <strong> Select All</strong> </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          <span> Ram</span> </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          <span> Krishna</span> </label>
+                      </div>
+                      <div class="checkbox">
+                        <label>
+                          <input type="checkbox" value="">
+                          <span> Ravi</span> </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="routine" class="col-md-4 col-sm-4 control-label"> Routine :</label>
+                  <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="white-space">
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="month" class="col-md-4 col-sm-4 col-xs-12 control-label">Type :</label>
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <select id="month" class="form-control input-sm">
+                      <option selected="selected">--Select Month--</option>
+                      <option>Alert(Action Required)</option>
+                      <option>Notification(Action Not Required)</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="triggeringcondition" class="col-md-4 col-sm-4 col-xs-12 control-label">Triggering Condition :</label>
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <textarea id="triggeringcondition" rows="3" class="form-control input-sm">
+                    </textarea>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div class="panel panel-primary">
+            <div class="panel-heading text-center">ALERT DETAILS</div>
+            <div class="panel-body min-height-body">
+              <div class="form-horizontal">
+                 <div class="form-group">
+                  <label for="subject" class="col-md-4 col-sm-4 control-label">Subject :</label>
+                  <div class="col-md-8 col-sm-8 col-xs-12">
+                    <input type="text" class="form-control input-sm" id="subject">
+                  </div>
+                 </div>
+                 <div class="btn-row text-center">
+                   <button class="btn input-sm">ADD PREDEFINED FIELDS</button>
+                 </div>
+                 <div class="form-group">
+                    <label for="alertmessage" class="col-md-4 col-sm-4 col-xs-12 control-label">Alert Message :</label>
+                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <textarea id="alertmessage" rows="3" class="form-control input-sm">
+                    </textarea>
+                    </div>
+                  </div>
+                  <div class="btn-row text-center">
+                   <button class="btn input-sm">ADD PREDEFINED FIELDS</button>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-------------------------------------finance-panel ends------------------------------------>
+<div class="container-fluid">
+<div class="button-row text-center">
+        <button class="btn btn-default">SAVE & CLOSE</button>
+        <button class="btn btn-default">RETURN TO LIST</button>
+      </div>
+<div class="button-row logout-div">
+  <button class="btn btn-default global-outer-btn">LOG OUT</button>
+</div>
+</div>
+</div>
+</section>
+<!---------------------------------------dashboard panel ends------------------------------------------------->
+
+<section class="welcome-footer">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-left">
+        <p>2018 © Wright Publishing - All Rights Reserved</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-center"> <a href="#">Login.iVessel-Manager.com</a> </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-right">
+        <p>iVessel-Manager ™</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----------------------------------------scripts starts here----------------------------------> 
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
+<!-- <script type="text/javascript" src="js/moment.js"></script>--> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-datepicker.js"></script> 
+<script type="text/javascript">
+ $('#datee').datepicker({
+    todayHighlight: true,
+	format: "yyyy-mm-dd"
+});
+
+
+ 
+</script> 
+
+<!----------------------------------------scripts ends here---------------------------------->
+</body>
+</html>

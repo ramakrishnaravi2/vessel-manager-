@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+.aria-only {
+  position: absolute;
+  left: -10000px;
+  overflow: hidden;
+}
+
+.at-accordion-or-tabs {
+  position: relative;
+  margin:15px auto;
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+  border-left: 1px solid #999;
+  width: 100%;
+  padding: 0;
+  clear: both;/*visibility: hidden; */
+}
+
+.at-accordion-or-tabs > li { list-style: none; }
+
+.at-accordion-or-tabs > li > a {
+    display: block;
+    padding: 10px 15px;
+    /* background: #ccc; */
+    /* border-top: 1px solid #eee; */
+    border-bottom: 1px solid #999;
+    text-decoration: none;
+    color: #000;
+}
+
+.at-accordion-or-tabs > li > a:hover, .at-accordion-or-tabs > li > a.active {
+  background: #fff;
+  color: #333;
+}
+
+.at-accordion-or-tabs > li > section {
+  display: none;
+  background: #ffffff;
+  overflow: hidden;
+  /*padding: 1%;*/
+  position: relative;
+  border-bottom: 1px solid #999;
+  width: 100%;
+}
+
+.no-js .at-accordion-or-tabs > li > section { display: block; }
+
+.at-accordion-or-tabs .at-tab-one-pixel-fix-left, .at-accordion-or-tabs .at-tab-one-pixel-fix-right {
+  display: none;
+  height: 1px;
+  width: 1px;
+  background-color: #000000;
+  position: absolute;
+  left: -1px;
+  bottom: -1px;
+}
+
+.at-accordion-or-tabs .at-tab-one-pixel-fix-right {
+  left: auto;
+  right: -1px;
+}
+
+.at-accordion-or-tabs.at-tabs { border: none;border-radius: 6px; }
+
+.at-accordion-or-tabs.at-tabs > li { display: inline; }
+
+.at-accordion-or-tabs.at-tabs > li > a {
+    display: inline-block;
+    /* border: 1px #000000 solid; */
+    z-index: 98;
+    position: relative;
+    border-bottom-color: #ffffff;
+    border-radius: 6px 6px 0 0;
+}
+
+.at-accordion-or-tabs.at-tabs > li > a.active {
+  z-index: 100;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.at-accordion-or-tabs.at-tabs .at-tab-one-pixel-fix-left, .at-accordion-or-tabs.at-tabs .at-tab-one-pixel-fix-right { display: inline-block; }
+
+.at-accordion-or-tabs.at-tabs > li > section {
+  float: left;
+  top: -1px;
+  left: 0;
+ /* margin-bottom: 24px;*/
+  /*border: 1px #000000 solid;*/
+  z-index: 99;
+  border-radius: 0 0px 6px 6px;
+}
+
+/***********************************************changed addcontacts forms styles********************************************/
+ ul.demo{
+	 background:#9f211e;
+ }
+ ul.demo > li > a{
+	 color:#fff;
+	 font-weight:normal;
+ }
+.demo .floating-form .form-group{
+	/*margin-right: 10px;*/
+    /*margin-left: 10px;*/
+}
+.demo .address-contacts-form .panel, .demo .add-contacts-form  .panel{
+	margin:10px;
+}
+.demo .address-contacts-form .panel .panel-heading{
+    color: #333;
+    background-color: #e3e2e4;
+    border: none;
+	font-size: 16px;
+	font-weight:600;
+}
+.demo .address-contacts-form .panel .panel-body, .demo .add-contacts-form  .panel .panel-body{
+	padding: 0 15px;
+}
+.demo .floating-form {
+    padding: 8px 16px;
+}

@@ -1,0 +1,497 @@
+<!doctype html>
+<html class="footer-sticky-properties">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FLEET MANAGEMENT HOME</title>
+<link rel="stylesheet" href="css/bootstrap.min.css"/>
+<link href="css/bootstrap-datepicker.css" rel="stylesheet"/>
+<link rel="stylesheet" href="css/font-awesome.css"/>
+<link rel="stylesheet" href="css/responsivestyles.css"/>
+<!--<link rel="stylesheet" href="css/style.css"/>-->
+<link rel="stylesheet" href="css/styles.css"/>
+<!-----updated stylesheet---------------------------->
+<!--<link rel="stylesheet" href="css/bootstrap-responsive-tabs.css">-->
+<link href="css/jquery.atAccordionOrTabs.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="body-bg">
+<section class="login-page-header">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="home-logo-div"> <img class="img-responsive home-header-logo header-logo" src="images/header-logo.png"/></div>
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-12">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="text-right">
+            <div class="text-right work-mode home-work-mode"><span>Work Mode: Online</span></div>
+            <div class="logout-btn-div text-right"> 
+              <!--<input  type="button" class="btn btn-block enter-button logout-btn"  value="Logout"/>--> 
+              <span class="logout-btn">Logout</span> </div>
+            <div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    <div class="pull-right">
+     <input  type="button" class="btn btn-block enter-button"  value="Close Program"/>
+     </div>--> 
+  </div>
+  </div>
+</section>
+
+<!---------------------------------------dashboard panel starts------------------------------------------------->
+<section class="file-management-header">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <p>Welcome <span>Admin</span></p>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <h3 class="text-center">ADD CONTACT</h3>
+      </div>
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="reset-div text-right"> <a  class="reset-btn" href="#"><i class="fa fa-cog" aria-hidden="true"></i> Reset Credentials</a> </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="addcontact-panel">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="home-link"><a href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> Contacts</a></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+        <div class="vessel-dropdown">
+          <div class="form-horizontal text-center form-group">
+            <label class="col-md-6 col-sm-6 col-xs-12  control-label" for="Vessel">Vessel/Yacht:</label>
+            <div class=" col-md-6  col-sm-6  col-xs-12">
+              <select class="form-control input-xs" id="Vessel">
+                <option value="">--Select--</option>
+                <option value="">Belle Aimee</option>
+                <option value="">DEVTEST</option>
+                <option value="">Eos</option>
+                <option value="">Equanimity</option>
+                <option value="">Excellence V</option>
+                <option value="">Faith</option>
+                <option value="">Freedom</option>
+                <option value="">Gladiator</option>
+                <option value="">Gravitas</option>
+                <option value="">Hampshire II</option>
+                <option value="">Helios</option>
+                <option value="">Huntress</option>
+                <option value="">Huntress(Old)</option>
+                <option value="">Infinity</option>
+                <option value="">Intrepid</option>
+                <option value="">Lady Britt</option>
+                <option value="">Liberty</option>
+                <option value="">M4</option>
+                <option value="">Majestic</option>
+                <option value="">Minderella</option>
+                <option value="">Moka</option>
+                <option value="">Paladin</option>
+                <option value="">Queen Miri</option>
+                <option value="">Moka</option>
+                <option value="">Moka</option>
+                <option value="">Moka</option>
+                <option value="">Moka</option>
+                <option value="">Moka</option>
+                <option value="">Moka</option>
+                <option value="">Moka</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="vessel-tabs-panel"> 
+          <!---------------------------added tabs----------------------------------------->
+          <ul class="demo">
+            <li><a>Name</a>
+              <section>
+                  <div class="panel-body">
+                    <form class="floating-form name-form-section">
+                      <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                          <div class=" form-group">
+                            <select class="form-control" id="title">
+                              <option>select</option>
+                              <option>Dr.</option>
+                              <option>Miss</option>
+                              <option>Mr.</option>
+                              <option>Mrs.</option>
+                              <option>Ms.</option>
+                              <option>Prof.</option>
+                              <option>CAPTAIN.</option>
+                            </select>
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="title">Select list:</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="first">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="first">First</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                          <div class="form-group">
+                            <input type="text" class="form-control" required id="middle">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="middle">Middle</label>
+                          </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="last">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="last">Last</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                          <div class=" form-group">
+                            <select class="form-control" id="suffix">
+                              <option>select</option>
+                              <option>I</option>
+                              <option>II</option>
+                              <option>III.</option>
+                              <option>Jr.</option>
+                              <option>Sr.</option>
+                            </select>
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="suffix">Suffix:</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-default ">Submit</button>
+                      </div>
+                    </form>
+                  </div>
+              </section>
+            </li>
+            <li><a>Company</a>
+              <section>
+                  <div class="panel-body">
+                    <form class="floating-form company-form-section">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="company">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="company">Company</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="job">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="job">Job Title</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="managername">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="managername">Manager Name</label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+              </section>
+            </li>
+            <li><a>Address</a>
+              <section>
+                  <div class="panel-body">
+                   <div class="panel panel-default no-margin">
+                   <div class="panel-heading">Business</div>
+                    <form class="floating-form address-business-form-section">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businessstreet">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businessstreet">Business Street</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businessstreet2">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businessstreet2">Business Street2</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businessstreet3">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businessstreet3">Business Street3</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businesscity">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businesscity">Business City</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businessstate">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businessstate">Business State</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businesspostalcode">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businesspostalcode">Business Postal Code</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businessaddresspostbox">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businessaddresspostbox">Business Address POBox</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businesscountry">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businesscountry">Business Country</label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </section>
+            </li>
+            <li><a>Phone</a>
+              <section>
+                  <div class="panel-body">
+                  <div class="panel panel-default no-margin">
+                   <div class="panel-heading">Business</div>
+                    <form class="floating-form address-business-form-section">
+                      <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businessfax">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businessfax">Business Fax</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="businessphone">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="businessphone">Business Phone</label>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="BusinessPhone2">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="BusinessPhone2">Business Phone2</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-4 col-sm-4 col-xs-12">
+                          <div class=" form-group">
+                            <input type="text" class="form-control" required id="companymainphone">
+                            <span class="highlight"></span> <span class="bar"></span>
+                            <label for="companymainphone">Company Main Phone</label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </section>
+            </li>
+            <li><a>Email</a>
+              <section>
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="panel panel-default no-margin">
+                      <div class="panel-heading">Email-1</div>
+                        <form class="floating-form email-email1-form-section">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="emailaddress">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="emailaddress">Email Address</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="emailtype">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="emailtype">Email Type</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="emaildisplayname">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="emaildisplayname">Email Display Name</label>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="panel panel-default no-margin">
+                      <div class="panel-heading">Email-2</div>
+                        <form class="floating-form email-email2-form-section">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="emailaddress">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="emailaddress">Email-2 Address</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="emailtype2">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="emailtype2">Email-2 Type</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="email2displayname">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="email2displayname">Email-2 Display Name</label>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="panel panel-default no-margin">
+                      <div class="panel-heading">Email-3</div>
+                        <form class=" floating-form addres-home-form-section">
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="email3address">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="email3address">Email-3 Address</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="email3type">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="email3type">Email-3 Type</label>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-12 col-sm-12 col-xs-12">
+                              <div class=" form-group">
+                                <input type="email" class="form-control" required id="email3displayname">
+                                <span class="highlight"></span> <span class="bar"></span>
+                                <label for="email3displayname">Email-3 Display Name</label>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </section>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    
+    <!-------------------------------------Contacts-panel starts------------------------------------>
+    
+    <div class="container-fluid">
+      <div class="text-center">
+        <button class="btn btn-default">SAVE</button>
+        <button class="btn btn-default">CANCEL</button>
+        <button class="btn btn-default">BACK</button>
+      </div>
+    </div>
+    <!-------------------------------------Contacts-panel starts------------------------------------> 
+    
+  </div>
+</section>
+<!---------------------------------------dashboard panel ends------------------------------------------------->
+
+<section class="welcome-footer">
+  <div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-left">
+        <p>2018 © Wright Publishing - All Rights Reserved</p>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-center"> <a href="#">Login.iVessel-Manager.com</a> </div>
+    </div>
+    <div class="col-md-4 col-sm-4 col-xs-12">
+      <div class="text-right">
+        <p>iVessel-Manager ™</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!----------------------------------------scripts starts here----------------------------------> 
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> 
+<!-- <script type="text/javascript" src="js/moment.js"></script>--> 
+<!--<script src="js/jquery.bootstrap-responsive-tabs.min.js"></script> --> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script src="js/bootstrap-datepicker.js"></script> 
+<script src="js/jquery.atAccordionOrTabs.js"></script> 
+<script src="js/jquery.bbq.js"></script> 
+<script type="text/javascript">
+$('.demo').accordionortabs();
+
+ $('#calendar').datepicker({
+    todayHighlight: true,
+	format: "yyyy-mm-dd"
+});
+
+
+</script> 
+<!----------------------------------------scripts ends here---------------------------------->
+</body>
+</html>
